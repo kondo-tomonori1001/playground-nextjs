@@ -1,25 +1,25 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+import '../styles/globals.css';
+import type { AppProps } from 'next/app';
 
 import NextHeadSeo from 'next-head-seo';
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return(
+  return (
     <>
-      <NextHeadSeo 
+      <NextHeadSeo
         title="Hello World!"
-        description='welcome to website'
+        description="welcome to website"
         customLinkTags={[
           {
-            rel: 'icon', 
+            rel: 'icon',
             type: 'image/x-icon',
-            href: '/favicon.ico'
-          }
+            href: '/favicon.ico',
+          },
         ]}
       />
       <Component {...pageProps} />
     </>
-  ) 
+  );
 }
 
-export default MyApp
+export default MyApp;
