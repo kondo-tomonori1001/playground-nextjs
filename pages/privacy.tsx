@@ -7,7 +7,7 @@ const Privacy: NextPage = () => {
     <>
       <NextHeadSeo title="PrivacyPolicy" />
       <main className={styles.main}>
-        <h1 className={styles.title}>Praivacy</h1>
+        <h1 className={styles.title}>PraivacyPraivacyPraivacyPraivacyPraivacyPraivacyPraivacyPraivacyPraivacyPraivacy</h1>
       </main>
 
       <footer className={styles.footer}>
