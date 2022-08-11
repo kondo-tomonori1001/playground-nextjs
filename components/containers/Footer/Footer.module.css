@@ -1,21 +1,21 @@
-.footer{
+.footer {
   position: relative;
   height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.footer p{
+.footer p {
   margin: 0;
   text-align: center;
   color: #888;
 }
-.footer:before{
-  content: "";
+.footer:before {
+  content: '';
   position: absolute;
   top: 0;
   left: 30px;
   width: calc(100% - 60px);
-  height: 1px; 
+  height: 1px;
   background-color: #555;
 }

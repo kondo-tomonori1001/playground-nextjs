@@ -7,6 +7,5 @@ export const Footer = () => {
         <p>&copy; 2022 Tomonori Kondo </p>
       </footer>
     </>
-  )
-}
-
+  );
+};
