@@ -1,0 +1,23 @@
+.article{
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 32px;
+}
+.article h1{
+  font-size: 2rem;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.article h2{
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+* + .article h2{
+  margin-top: 16px;
+}
+.article p {
+  margin-top: 12px;
+  margin-bottom: 24px;
+}

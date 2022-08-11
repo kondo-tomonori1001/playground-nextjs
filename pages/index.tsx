@@ -1,5 +1,4 @@
 import type { NextPage } from 'next';
-import Head from 'next/head';
 import styles from '../styles/pages/Home.module.css';
 import NextHeadSeo from 'next-head-seo';
 import { Footer } from '../components/containers/Footer/Footer';

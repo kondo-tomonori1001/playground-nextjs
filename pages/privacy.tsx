@@ -1,18 +1,43 @@
 import type { NextPage } from 'next';
 import styles from '../styles/pages/Privacy.module.css';
 import NextHeadSeo from 'next-head-seo';
+import { Footer } from '../components/containers/Footer/Footer';
 
 const Privacy: NextPage = () => {
   return (
     <>
-      <NextHeadSeo title="PrivacyPolicy" />
-      <main className={styles.main}>
-        <h1 className={styles.title}>PraivacyPraivacyPraivacyPraivacyPraivacyPraivacyPraivacyPraivacyPraivacyPraivacy</h1>
-      </main>
-
-      <footer className={styles.footer}>
-        <p>&copy; 2022 Tomonori Kondo </p>
-      </footer>
+      <NextHeadSeo title="プライバシーポリシー" />
+      <article className={styles.article}>
+        <h1>プライバシーポリシー</h1>
+        <p>
+          近藤智紀は、サイト構築・運営、システム開発等の業務を行なっており、個人情報を最大限保護すべく、以下の規約を遵守致します。
+        </p>
+        <h2>1.　個人情報の保護</h2>
+        <p>
+          ユーザーの皆様から提供していただいた個人情報については、適切な方法で管理し、不正侵入及び漏洩などの危険が生じないよう、個人情報の適切な管理及び保護に努めます。
+        </p>
+        <h2>2.　個人情報収集</h2>
+        <p>
+          ユーザーの皆様から提供していただいた個人情報を、ユーザーの皆様へ有用な情報をお届けするなどの正当な目的のためにのみ収集します。
+        </p>
+        <h2>3.　個人情報の利用</h2>
+        <p>
+          ユーザーの皆様から提供していただいた個人情報を、ユーザーの皆様へ有用な情報をお届けするなどの正当な目的のためにのみ使用します。
+        </p>
+        <h2>4.　個人情報の開示</h2>
+        <p>
+          ユーザーの皆様から提供していただいた個人情報を、正当な理由のある場合を除き、その同意なくして第三者に開示若しくは提供することはありません。また、その場合においても、正当な理由ない限り、個人情報が第三者から更に開示、提供若しくは漏洩されることのないよう努めます。
+        </p>
+        <h2>5.　ユーザーによる照会</h2>
+        <p>
+          ユーザーの皆様が提供された個人情報の確認、訂正などを希望される場合は、弊社対応窓口にお申出いただくことにより、合理的な範囲で、そのご希望に対応致します。
+        </p>
+        <h2>6.　ポリシーの改善</h2>
+        <p>
+          ユーザー皆様の個人情報の取扱い、管理及び保護については、関係法規を遵守するとともに、適宜本ポリシーの内容を見直しその改善に努めます。
+        </p>
+      </article>
+      <Footer />
     </>
   );
 };
