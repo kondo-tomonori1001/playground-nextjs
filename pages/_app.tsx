@@ -1,5 +1,6 @@
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
+import 'modern-css-reset/dist/reset.min.css';
 
 import NextHeadSeo from 'next-head-seo';
 
